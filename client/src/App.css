@@ -1,0 +1,41 @@
+img {
+  width: 100%;
+}
+
+.landing {
+  position: relative;
+  background-size: cover;
+  background: url('./img/bg.jpg') repeat center;
+  height: 100vh;
+  margin-top: -24px;
+  margin-bottom: -50px;
+}
+
+.bg-blue {
+  background: #17a2b8;
+}
+
+.copyright-name {
+  color: white;
+}
+
+.copyright-name:hover {
+  color: black;
+}
+
+.landing-inner {
+  padding-top: 80px;
+}
+
+.card-form {
+  opacity: 0.9;
+}
+
+.latest-profiles-img {
+  width: 40px;
+  height: 40px;
+}
+
+.form-control::placeholder {
+  color: #bbb !important;
+}
